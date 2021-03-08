@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+
+.again button {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.separator {
+    margin-top: 70px;
+    border: 3px solid white;
+}
+
+.questionBox {
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 45px;
+}
+
+input {
+    background-color: black;
+    border: 3px solid white;
+    margin-top: 150px;
+    margin-left: 550px;
+    font-size: 45px;
+    width: 180px;
+    height: 90px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.check button {
+    font-size: 24px;
+    margin-left: 590px;
+    margin-top: 10px;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.statusText h1 {
+    color: white;
+    position: absolute;
+    top: 325px;
+    left: 1100px
+}
+
+.score {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 1100px
+}
+
+.score h2 {
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: -4px
+}
+
+.highScore {
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 1100px
+}
+
+.highScore h2 {
+    font-size: 38px;
+    color: white;
+    position: absolute;
+    left: 280px;
+    top: -4px
+}
+
+.message h1 {
+    position: relative;
+    color: white;
+    font-size: 62px;
+    margin-top: 150px;
+    text-align: center;
+}
